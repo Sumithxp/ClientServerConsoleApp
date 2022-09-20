@@ -26,7 +26,7 @@ Docker container
 ```docker
  docker build . -t signalrserver
  
- docker run signalrserver docker run -d -p 8080:80
+ docker run signalrserver -d -p 8080:80
  
 ```
 SignalR Service will be exposed to <IP>:8080  
