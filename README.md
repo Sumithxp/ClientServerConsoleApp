@@ -1,4 +1,4 @@
-# ClientServerConsoleApp
+# Client-Server Console App
 
 Client Server Console App using SignalR
 
