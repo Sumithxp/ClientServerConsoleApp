@@ -20,7 +20,7 @@ Docker container
 
 ## Easy Steps ##
 
-1. **Bild SignalRService** -   Goto to the SignalRService folder and build docker image and run
+1. **Build SignalRService** -   Goto to the SignalRService folder and build docker image and run
 
 
 ```docker
