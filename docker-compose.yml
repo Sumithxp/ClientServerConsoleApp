@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  signalr-service:
+    image: ${DOCKER_REGISTRY-}signalr-service
+    container_name: signalrservice
+    build:
+      context: .
+      dockerfile: SignalRService/Dockerfile
+    ports:
+      - "8080:80"
+  clientapp:
+    image: ${DOCKER_REGISTRY-}clientapp
+    container_name: clientapp
+    build:
+      context: .
+      dockerfile: ClientApp/Dockerfile    
+    depends_on:
+        - signalr-service
+        - serverapp
+        
+  serverapp:
+    image: ${DOCKER_REGISTRY-}serverapp
+    container_name: serverapp
+    build:
+      context: .
+      dockerfile: ServerApp/Dockerfile    
+    depends_on:
+        - signalr-service
