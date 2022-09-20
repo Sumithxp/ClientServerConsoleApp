@@ -4,12 +4,10 @@ Client Server Console App using SignalR
 
 SignalR Server creation in Web Application and Client and Server applications in console app. All the applications run in docker contianers.
 
-<table>
-  <tr>
-    <td valign="center"> <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width=30% height=30%></td>
-    <td valign="center"><img src="https://miro.medium.com/max/1200/0*ILbItnzDfSZhZwSn.png" width=70% height=70%></td>
-  </tr>
-</table>
+
+ <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width=20% height=20%>
+ <img src="https://miro.medium.com/max/1200/0*ILbItnzDfSZhZwSn.png" width=20% height=20%>
+
 
  
 
